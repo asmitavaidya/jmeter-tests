@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="156" it="0" lt="155" ct="40" ts="1495402493199" s="true" lb="Find all items" rc="200" rm="" tn="Item API Perf Test 1-1" dt="text" by="390" sby="158" ng="1" na="1"/>
+<httpSample t="99" it="0" lt="99" ct="0" ts="1495402493361" s="true" lb="Post An Item" rc="200" rm="" tn="Item API Perf Test 1-1" dt="text" by="185" sby="236" ng="1" na="1"/>
+<httpSample t="48" it="0" lt="48" ct="0" ts="1495402493583" s="true" lb="Retrieve Item Based on id" rc="200" rm="" tn="Item API Perf Test 1-1" dt="text" by="185" sby="162" ng="1" na="1">
+  <assertionResult>
+    <name>Verify Item Inserted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="51" it="0" lt="51" ct="0" ts="1495402493635" s="true" lb="Update Item" rc="200" rm="" tn="Item API Perf Test 1-1" dt="" by="73" sby="252" ng="1" na="1"/>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1495402493687" s="true" lb="Delete Item Added" rc="200" rm="" tn="Item API Perf Test 1-1" dt="" by="73" sby="184" ng="1" na="1"/>
+<httpSample t="93" it="0" lt="93" ct="0" ts="1495402495664" s="true" lb="Find all items" rc="200" rm="" tn="Item API Perf Test 1-2" dt="text" by="390" sby="158" ng="1" na="1"/>
+<httpSample t="103" it="0" lt="102" ct="0" ts="1495402495758" s="true" lb="Post An Item" rc="200" rm="" tn="Item API Perf Test 1-2" dt="text" by="185" sby="236" ng="1" na="1"/>
+<httpSample t="47" it="0" lt="47" ct="0" ts="1495402495877" s="true" lb="Retrieve Item Based on id" rc="200" rm="" tn="Item API Perf Test 1-2" dt="text" by="185" sby="162" ng="1" na="1">
+  <assertionResult>
+    <name>Verify Item Inserted</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+</httpSample>
+<httpSample t="56" it="0" lt="56" ct="0" ts="1495402495925" s="true" lb="Update Item" rc="200" rm="" tn="Item API Perf Test 1-2" dt="" by="73" sby="252" ng="1" na="1"/>
+<httpSample t="57" it="0" lt="57" ct="0" ts="1495402495982" s="true" lb="Delete Item Added" rc="200" rm="" tn="Item API Perf Test 1-2" dt="" by="73" sby="184" ng="1" na="1"/>
+
+</testResults>

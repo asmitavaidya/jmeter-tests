@@ -1,0 +1,9 @@
+.DS_Store
+.project
+.settings/
+LICENSE
+NOTICE
+backups/*
+licenses/*
+printable_docs/*
+
